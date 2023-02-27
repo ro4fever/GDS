@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gds.PayslipController">
+   <children>
+      <GridPane layoutY="43.0" prefHeight="638.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="385.0" minWidth="10.0" prefWidth="279.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="321.0" minWidth="0.0" prefWidth="106.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="272.0" minWidth="10.0" prefWidth="106.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="306.0" minWidth="10.0" prefWidth="94.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="23.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="18.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="61.0" minHeight="0.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="7.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="4.0" prefHeight="19.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="3.0" prefHeight="21.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="7.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="104.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="39.0" minHeight="19.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="81.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="81.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="66.0" minHeight="9.0" prefHeight="22.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="66.0" minHeight="9.0" prefHeight="22.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="109.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="89.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="79.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="66.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="21.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="17.0" prefWidth="595.0" text="---------Componente salariale------------------------------------------------------------------------------------------------" GridPane.columnSpan="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Vani" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="288.0" text="Tipuri de retributie">
+               <font>
+                  <Font name="Vani Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="111.0" text="Zi/Ora/Baza" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Vani Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="112.0" text="Medie Zi/Proc." GridPane.columnIndex="2">
+               <font>
+                  <Font name="Vani Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="95.0" text="Valoare RON" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Vani Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="290.0" text="Salariul de baza - lunar" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="290.0" text="Munca zile sarbatoare 100%" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="50.0" prefHeight="17.0" prefWidth="290.0" text="Lucru week-end 50%" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="68.0" prefHeight="17.0" prefWidth="290.0" text="Tura de noapte (22 - 6) 25%" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="90.0" prefHeight="17.0" prefWidth="290.0" text="Consemn zi de lucru 23%" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="113.0" prefHeight="17.0" prefWidth="290.0" text="Consemn sarbatori si week-end 28%" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="136.0" prefHeight="17.0" prefWidth="290.0" text="Ajutor CO (estimare)" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="159.0" prefHeight="17.0" prefWidth="290.0" text="Indemnizatie concediu de odihna (estimare)" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="182.0" prefHeight="17.0" prefWidth="290.0" text="Decont naveta zilnica" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="205.0" prefHeight="17.0" prefWidth="290.0" text="Adaos compensatoriu contribuabil 20%" GridPane.rowIndex="12">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="228.0" text="Asig. privata sanatate" GridPane.rowIndex="13">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="251.0" prefHeight="17.0" prefWidth="290.0" text="Pensie facultativa ER" GridPane.rowIndex="14">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="274.0" prefHeight="17.0" prefWidth="290.0" text="Val. tichete de masa" GridPane.rowIndex="15">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="297.0" prefHeight="17.0" prefWidth="290.0" text="Spor de ore suplimentare 100%" GridPane.rowIndex="16">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="320.0" prefHeight="17.0" prefWidth="613.0" text="---------Baza deduceri legale---------------------------------------------------------------------------------------------------" GridPane.columnSpan="4" GridPane.rowIndex="22">
+               <font>
+                  <Font name="Vani" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="344.0" prefHeight="17.0" prefWidth="290.0" text="EE: asig. sociale" GridPane.rowIndex="23">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="368.0" prefHeight="17.0" prefWidth="290.0" text="EE: asig. sanatate" GridPane.rowIndex="24">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="392.0" prefHeight="17.0" prefWidth="290.0" text="Impozit total EE" GridPane.rowIndex="25">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="416.0" prefHeight="17.0" prefWidth="290.0" text="Plata neta legala" GridPane.rowIndex="26">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="440.0" prefHeight="17.0" prefWidth="597.0" text="---------Deduceri legale--------------------------------------------------------------------------------------------------------" GridPane.columnSpan="4" GridPane.rowIndex="27">
+               <font>
+                  <Font name="Vani" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="464.0" prefHeight="17.0" prefWidth="290.0" text="Cotizatie sindicat" GridPane.rowIndex="28">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="488.0" prefHeight="17.0" prefWidth="290.0" text="Pens. facultativa EE" GridPane.rowIndex="29">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="512.0" prefHeight="17.0" prefWidth="290.0" text="Suma plata" GridPane.rowIndex="30">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="315.0" prefHeight="17.0" prefWidth="602.0" text="---------Sume brute-------------------------------------------------------------------------------------------------------------" GridPane.columnSpan="4" GridPane.rowIndex="17">
+               <font>
+                  <Font name="Vani" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="331.0" prefHeight="17.0" prefWidth="290.0" text="Suma bruta totala" GridPane.rowIndex="18">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="341.0" prefHeight="17.0" prefWidth="290.0" text="Baza impozit net" GridPane.rowIndex="19">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="357.0" prefHeight="17.0" prefWidth="290.0" text="Baza asigurari sociale EE" GridPane.rowIndex="20">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="374.0" prefHeight="17.0" prefWidth="290.0" text="Baza asigurari sanatate EE" GridPane.rowIndex="21">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="holidayX" prefHeight="17.0" prefWidth="111.0" text="HolidayX" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="weekEndWorkX" layoutX="292.0" layoutY="63.0" prefHeight="17.0" prefWidth="111.0" text="WeekEndWorkX" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="nightWorkX" layoutX="292.0" layoutY="82.0" prefHeight="17.0" prefWidth="111.0" text="NightWorkX" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="passiveHoursX" layoutX="292.0" layoutY="101.0" prefHeight="17.0" prefWidth="111.0" text="PassiveHoursX" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="holidayPassiveHoursX" layoutX="292.0" layoutY="119.0" prefHeight="17.0" prefWidth="111.0" text="holidayPassiveHoursX" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="vacationX" layoutX="292.0" layoutY="136.0" prefHeight="17.0" prefWidth="111.0" text="VacationX" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="vacationPayX" layoutX="292.0" layoutY="153.0" prefHeight="17.0" prefWidth="111.0" text="VacationPayX" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="mealTicketValue" layoutX="292.0" layoutY="171.0" prefHeight="17.0" prefWidth="111.0" text="MealTicketValue" GridPane.columnIndex="2" GridPane.rowIndex="15">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="overTimePayX" layoutX="292.0" layoutY="275.0" prefHeight="17.0" prefWidth="111.0" text="OverTimePayX" GridPane.columnIndex="2" GridPane.rowIndex="16">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="monthHours" layoutX="401.0" layoutY="63.0" prefHeight="17.0" prefWidth="111.0" text="hours" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="holidayHours" layoutX="292.0" layoutY="45.0" prefHeight="17.0" prefWidth="111.0" text="holidayHours" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="weekEndHours" layoutX="292.0" layoutY="63.0" prefHeight="17.0" prefWidth="111.0" text="weekEndHours" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="nightHours" layoutX="292.0" layoutY="82.0" prefHeight="17.0" prefWidth="111.0" text="nightHours" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="passiveHoursLabel" layoutX="292.0" layoutY="101.0" prefHeight="17.0" prefWidth="111.0" text="passiveHours" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="holyPassiveHours" layoutX="292.0" layoutY="119.0" prefHeight="17.0" prefWidth="111.0" text="holyPassiveHours" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="vacationHours" layoutX="292.0" layoutY="136.0" prefHeight="17.0" prefWidth="111.0" text="vacationDays" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="vacationPayDays" layoutX="292.0" layoutY="153.0" prefHeight="17.0" prefWidth="111.0" text="vacationPayDays" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="nxtMonthShifts" layoutX="292.0" layoutY="171.0" prefHeight="17.0" prefWidth="111.0" text="nextMonthShifts" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="hourS" layoutX="292.0" layoutY="191.0" prefHeight="17.0" prefWidth="111.0" text="hours" GridPane.columnIndex="1" GridPane.rowIndex="12">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="nextMonthShifts" layoutX="292.0" layoutY="213.0" prefHeight="17.0" prefWidth="111.0" text="nextMonthShifts" GridPane.columnIndex="1" GridPane.rowIndex="15">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="extraHourS" layoutX="292.0" layoutY="275.0" prefHeight="17.0" prefWidth="111.0" text="extraHours" GridPane.columnIndex="1" GridPane.rowIndex="16">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="grossPay" layoutX="292.0" layoutY="297.0" prefHeight="17.0" prefWidth="111.0" text="grossPay" GridPane.columnIndex="3" GridPane.rowIndex="18">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="netTaxBase" layoutX="510.0" layoutY="341.0" prefHeight="17.0" prefWidth="111.0" text="netTaxBase" GridPane.columnIndex="1" GridPane.rowIndex="19">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="socialInsBaseEE" layoutX="292.0" layoutY="362.0" prefHeight="17.0" prefWidth="111.0" text="socialInsBaseEE" GridPane.columnIndex="1" GridPane.rowIndex="20">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="healthInsBaseEE" layoutX="292.0" layoutY="382.0" prefHeight="17.0" prefWidth="111.0" text="healthInsBaseEE" GridPane.columnIndex="1" GridPane.rowIndex="21">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="socialInsuranceEEX" layoutX="292.0" layoutY="402.0" prefHeight="17.0" prefWidth="111.0" text="socialInsuranceEEX" GridPane.columnIndex="1" GridPane.rowIndex="23">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="healthInsuranceEEX" layoutX="292.0" layoutY="442.0" prefHeight="17.0" prefWidth="111.0" text="healthInsuranceEEX" GridPane.columnIndex="1" GridPane.rowIndex="24">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalTaxX" layoutX="292.0" layoutY="462.0" prefHeight="17.0" prefWidth="111.0" text="totalTaxX" GridPane.columnIndex="1" GridPane.rowIndex="25">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="socialInsuranceEE" layoutX="510.0" layoutY="341.0" prefHeight="17.0" prefWidth="111.0" text="socialInsuranceEE" GridPane.columnIndex="3" GridPane.rowIndex="23">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="healthInsuranceEE" layoutX="510.0" layoutY="442.0" prefHeight="17.0" prefWidth="111.0" text="healthInsuranceEE" GridPane.columnIndex="3" GridPane.rowIndex="24">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalTax" layoutX="510.0" layoutY="462.0" prefHeight="17.0" prefWidth="111.0" text="totalTax" GridPane.columnIndex="3" GridPane.rowIndex="25">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="netLegalPay" layoutX="510.0" layoutY="482.0" prefHeight="17.0" prefWidth="111.0" text="netLegalPay" GridPane.columnIndex="3" GridPane.rowIndex="26">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="syndicateCost" layoutX="510.0" layoutY="502.0" prefHeight="17.0" prefWidth="111.0" text="syndicateCost" GridPane.columnIndex="3" GridPane.rowIndex="28">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="optionalPensionEE" layoutX="510.0" layoutY="546.0" prefHeight="17.0" prefWidth="111.0" text="optionalPensionEE" GridPane.columnIndex="3" GridPane.rowIndex="29">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="paymentAmount" layoutX="510.0" layoutY="566.0" prefHeight="17.0" prefWidth="111.0" text="paymentAmount" GridPane.columnIndex="3" GridPane.rowIndex="30">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="overTimePay" layoutX="510.0" layoutY="341.0" prefHeight="17.0" prefWidth="111.0" text="OverTimePay" GridPane.columnIndex="3" GridPane.rowIndex="16">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="mealTickets" layoutX="510.0" layoutY="297.0" prefHeight="17.0" prefWidth="111.0" text="MealTickets" GridPane.columnIndex="3" GridPane.rowIndex="15">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="optionalPensionER" layoutX="510.0" layoutY="275.0" prefHeight="17.0" prefWidth="111.0" text="OptionalPensionER" GridPane.columnIndex="3" GridPane.rowIndex="14">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="privateHealthInsurance" layoutX="510.0" layoutY="254.0" prefHeight="17.0" prefWidth="111.0" text="PrivateHealthInsurance" GridPane.columnIndex="3" GridPane.rowIndex="13">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="compensatoryAddTax" layoutX="510.0" layoutY="234.0" prefHeight="17.0" prefWidth="111.0" text="CompensatoryTaxAdd" GridPane.columnIndex="3" GridPane.rowIndex="12">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="workCommute" layoutX="510.0" layoutY="213.0" prefHeight="17.0" prefWidth="111.0" text="WorkCommute" GridPane.columnIndex="3" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="vacationPay" layoutX="510.0" layoutY="191.0" prefHeight="17.0" prefWidth="111.0" text="VacationPay" GridPane.columnIndex="3" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="vacation" layoutX="510.0" layoutY="171.0" prefHeight="17.0" prefWidth="111.0" text="Vacation" GridPane.columnIndex="3" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="holidayPassiveHours" layoutX="510.0" layoutY="153.0" prefHeight="17.0" prefWidth="111.0" text="holidayPassiveHours" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="passiveHours" layoutX="510.0" layoutY="136.0" prefHeight="17.0" prefWidth="111.0" text="PassiveHours" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="nightWork" layoutX="510.0" layoutY="119.0" prefHeight="17.0" prefWidth="111.0" text="NightWork" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="weekEndWork" layoutX="510.0" layoutY="101.0" prefHeight="17.0" prefWidth="111.0" text="WeekEndWork" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="holidayWork" layoutX="510.0" layoutY="82.0" prefHeight="17.0" prefWidth="111.0" text="holidayWork" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="baseMonthlySalary" layoutX="510.0" layoutY="63.0" prefHeight="17.0" prefWidth="111.0" text="BaseMonthlySalary" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="437.0" prefHeight="17.0" prefWidth="290.0" text="\%" GridPane.columnIndex="2" GridPane.rowIndex="23">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="401.0" layoutY="437.0" prefHeight="17.0" prefWidth="290.0" text="\%" GridPane.columnIndex="2" GridPane.rowIndex="24">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="401.0" layoutY="457.0" prefHeight="17.0" prefWidth="290.0" text="\%" GridPane.columnIndex="2" GridPane.rowIndex="25">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="159.0" prefHeight="14.0" prefWidth="282.0" text="Concediu special" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="vacationHourSLabel" layoutX="292.0" layoutY="159.0" prefHeight="17.0" prefWidth="111.0" text="vacationHours" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="specialVacationX" layoutX="401.0" layoutY="159.0" prefHeight="17.0" prefWidth="111.0" text="specialVacationX" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="specialVacation" layoutX="510.0" layoutY="159.0" prefHeight="17.0" prefWidth="111.0" text="Vacation" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Vani" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Label fx:id="nameFieldPayslip" layoutX="14.0" layoutY="15.0" text="Nume">
+         <font>
+            <Font name="Britannic Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="15.0" text="Incadrare:">
+         <font>
+            <Font name="Britannic Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="baseSalaryPayslip" layoutX="496.0" layoutY="15.0" text="salariu brut">
+         <font>
+            <Font name="Britannic Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="16.0" text="Ore planificate:">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="absWorkingHours" layoutX="309.0" layoutY="16.0" prefHeight="16.0" prefWidth="43.0" text="Ore">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

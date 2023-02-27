@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gds.Controller">
+   <children>
+      <AnchorPane prefHeight="440.0" prefWidth="400.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="info1" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="184.0" layoutY="195.0" prefHeight="114.0" prefWidth="400.0" text="Aplicatia GDS va ajuta sa efectuati o estimare a duratei de munca prin calculul orelor efectiv lucrate, a orelor de weekend, de noapte si de sarbatori. In baza turelor introduse in casutele corespunzatoare lunii selectate se estimeaza si salariul pentru munca prestata, simuland un fluturas de salariu." wrapText="true" AnchorPane.bottomAnchor="320.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="info2" editable="false" layoutY="108.0" prefHeight="315.0" prefWidth="400.0" text="1 sau 5&#9;=&#9;tura in intervalul orelor 06 - 10  &#10;2 sau 6&#9;=&#9;tura in intervalul orelor 10 - 16&#10;3 sau 7&#9;=&#9;tura in intervalul orelor 16 - 22&#10;4&#9;=&#9;tura in intervalul orelor 22 - 06    &#10;i&#9;=&#9;instructaj&#10;Z&#9;=&#9;program la zi de 6 ore&#10;AS&#9;=&#9;activitate sindicat&#10;ED&#9;=&#9;concediu evenimente deosebite&#10;C&#9;=&#9;concediu de odihnă&#10;B&#9;=&#9;concediu de boală&#10;O&#9;=&#9;obligaţii cetăţeneşti&#10;CFP&#9;=&#9;concediu fără salariu&#10;M&#9;=&#9;concediu maternitate&#10;N&#9;=&#9;nemotivat" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+            </TextArea>
+            <Label fx:id="info3" alignment="CENTER_RIGHT" layoutY="428.0" prefHeight="13.0" prefWidth="400.0" text="Agachi Copyright ©2022" textAlignment="RIGHT" AnchorPane.bottomAnchor="-7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="428.0">
+               <font>
+                  <Font name="Calibri" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

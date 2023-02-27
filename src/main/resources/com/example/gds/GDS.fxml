@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #d2e8f5;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gds.Controller">
+   <children>
+      <DatePicker fx:id="datePicker" layoutX="23.0" layoutY="14.0" onAction="#getDate" promptText="Selecteaza data:" />
+      <TextField fx:id="nameField" layoutX="225.0" layoutY="14.0" prefHeight="25.0" prefWidth="323.0" promptText="NUME:" />
+      <Label layoutX="84.0" layoutY="76.0" text="Luni">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="76.0" text="Marti">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="76.0" text="Miercuri">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="391.0" layoutY="76.0" text="Joi">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="483.0" layoutY="76.0" text="Vineri">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="580.0" layoutY="76.0" text="Sambata">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="76.0" text="Duminica">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="date00" layoutX="84.0" layoutY="99.0" text="00" />
+      <Label fx:id="date01" layoutX="181.0" layoutY="99.0" text="01" />
+      <Label fx:id="date02" layoutX="282.0" layoutY="99.0" text="02" />
+      <Label fx:id="date03" layoutX="387.0" layoutY="99.0" text="03" />
+      <Label fx:id="date04" layoutX="489.0" layoutY="99.0" text="04" />
+      <Label fx:id="date05" layoutX="593.0" layoutY="99.0" text="05" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date06" layoutX="689.0" layoutY="99.0" text="06" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date10" layoutX="84.0" layoutY="152.0" text="10" />
+      <Label fx:id="date11" layoutX="180.0" layoutY="152.0" text="11" />
+      <Label fx:id="date12" layoutX="281.0" layoutY="152.0" text="12" />
+      <Label fx:id="date13" layoutX="386.0" layoutY="152.0" text="13" />
+      <Label fx:id="date14" layoutX="489.0" layoutY="152.0" text="14" />
+      <Label fx:id="date15" layoutX="592.0" layoutY="152.0" text="15" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date16" layoutX="689.0" layoutY="152.0" text="16" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="shift00" layoutX="68.0" layoutY="116.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift01" layoutX="166.0" layoutY="116.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift02" layoutX="267.0" layoutY="116.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift03" layoutX="372.0" layoutY="116.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift04" layoutX="474.0" layoutY="116.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift05" blendMode="GREEN" layoutX="578.0" layoutY="116.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift06" blendMode="GREEN" layoutX="675.0" layoutY="116.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift10" layoutX="68.0" layoutY="169.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift11" layoutX="166.0" layoutY="169.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift12" layoutX="267.0" layoutY="169.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift13" layoutX="372.0" layoutY="169.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift14" layoutX="474.0" layoutY="169.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift15" blendMode="GREEN" layoutX="578.0" layoutY="169.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift16" blendMode="GREEN" layoutX="675.0" layoutY="169.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <Label fx:id="date20" layoutX="85.0" layoutY="205.0" text="20" />
+      <Label fx:id="date21" layoutX="181.0" layoutY="205.0" text="21" />
+      <Label fx:id="date22" layoutX="282.0" layoutY="205.0" text="22" />
+      <Label fx:id="date23" layoutX="387.0" layoutY="205.0" text="23" />
+      <Label fx:id="date24" layoutX="489.0" layoutY="205.0" text="24" />
+      <Label fx:id="date25" layoutX="593.0" layoutY="205.0" text="25" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date26" layoutX="689.0" layoutY="205.0" text="26" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date30" layoutX="85.0" layoutY="258.0" text="30" />
+      <Label fx:id="date31" layoutX="181.0" layoutY="258.0" text="31" />
+      <Label fx:id="date32" layoutX="282.0" layoutY="258.0" text="32" />
+      <Label fx:id="date33" layoutX="388.0" layoutY="258.0" text="33" />
+      <Label fx:id="date34" layoutX="489.0" layoutY="258.0" text="34" />
+      <Label fx:id="date35" layoutX="594.0" layoutY="258.0" text="35" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date36" layoutX="689.0" layoutY="258.0" text="36" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date40" layoutX="84.0" layoutY="311.0" text="40" />
+      <Label fx:id="date41" layoutX="181.0" layoutY="311.0" text="41" />
+      <Label fx:id="date42" layoutX="282.0" layoutY="311.0" text="42" />
+      <Label fx:id="date43" layoutX="387.0" layoutY="311.0" text="43" />
+      <Label fx:id="date44" layoutX="489.0" layoutY="311.0" text="44" />
+      <Label fx:id="date45" layoutX="593.0" layoutY="311.0" text="45" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date46" layoutX="691.0" layoutY="311.0" text="46" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date50" layoutX="85.0" layoutY="363.0" text="50" />
+      <Label fx:id="date51" layoutX="181.0" layoutY="363.0" text="51" />
+      <Label fx:id="date52" layoutX="282.0" layoutY="363.0" text="52" />
+      <Label fx:id="date53" layoutX="387.0" layoutY="363.0" text="53" />
+      <Label fx:id="date54" layoutX="489.0" layoutY="363.0" text="54" />
+      <Label fx:id="date55" layoutX="594.0" layoutY="363.0" text="55" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="date56" layoutX="689.0" layoutY="363.0" text="56" textFill="#f80000">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="shift20" layoutX="68.0" layoutY="222.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift21" layoutX="166.0" layoutY="222.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift22" layoutX="267.0" layoutY="222.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift23" layoutX="372.0" layoutY="222.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift24" layoutX="474.0" layoutY="222.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift25" blendMode="GREEN" layoutX="578.0" layoutY="222.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift26" blendMode="GREEN" layoutX="675.0" layoutY="222.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift30" layoutX="68.0" layoutY="275.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift31" layoutX="166.0" layoutY="275.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift32" layoutX="267.0" layoutY="275.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift33" layoutX="372.0" layoutY="275.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift34" layoutX="474.0" layoutY="275.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift35" blendMode="GREEN" layoutX="578.0" layoutY="275.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift36" blendMode="GREEN" layoutX="675.0" layoutY="275.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift40" layoutX="68.0" layoutY="328.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift41" layoutX="166.0" layoutY="328.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift42" layoutX="267.0" layoutY="328.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift43" layoutX="372.0" layoutY="328.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift44" layoutX="474.0" layoutY="328.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift45" blendMode="GREEN" layoutX="578.0" layoutY="328.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift46" blendMode="GREEN" layoutX="675.0" layoutY="328.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift50" layoutX="68.0" layoutY="381.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift51" layoutX="166.0" layoutY="381.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift52" layoutX="267.0" layoutY="381.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift53" layoutX="372.0" layoutY="381.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift54" layoutX="474.0" layoutY="381.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift55" blendMode="GREEN" layoutX="578.0" layoutY="381.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="shift56" blendMode="GREEN" layoutX="675.0" layoutY="381.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="salaryField" layoutX="568.0" layoutY="14.0" prefHeight="25.0" prefWidth="158.0" promptText="Salariul de baza:" />
+      <Label layoutX="260.0" layoutY="437.0" text="Numar total ture Consemn:" />
+      <Label layoutX="270.0" layoutY="463.0" text="ture consemn sarbatoare:" />
+      <TextField fx:id="totalPassiveShifts" blendMode="RED" layoutX="413.0" layoutY="433.0" prefHeight="25.0" prefWidth="54.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="holidayPassiveShifts" blendMode="RED" layoutX="413.0" layoutY="461.0" prefHeight="25.0" prefWidth="54.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <Label layoutX="34.0" layoutY="498.0" text="Ore efectiv lucrate:">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="525.0" text="Ore Noaptea:">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="526.0" text="Ore Sarbatori:">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="437.0" text="Ore suplimentare:" />
+      <TextField fx:id="extraHoursField" blendMode="RED" layoutX="168.0" layoutY="433.0" prefHeight="25.0" prefWidth="58.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font></TextField>
+      <Label layoutX="561.0" layoutY="495.0" text="Salariu BRUT:">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="520.0" text="Salariu NET:">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="grossPayLabel" layoutX="679.0" layoutY="495.0" prefHeight="17.0" prefWidth="73.0" text="brut" textFill="#ff0863" textOverrun="CLIP">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="netPay" layoutX="682.0" layoutY="519.0" prefHeight="17.0" prefWidth="73.0" text="net" textFill="#ff0863" textOverrun="CLIP">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="holidayHoursLabel" layoutX="418.0" layoutY="526.0" text="oreS" textFill="#671ec6">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nightHoursLabel" layoutX="185.0" layoutY="525.0" text="oreN" textFill="#671ec6">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="realHours" layoutX="185.0" layoutY="498.0" text="oreE" textFill="#671ec6">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="calcBtn" layoutX="507.0" layoutY="425.0" mnemonicParsing="false" onAction="#calc" prefHeight="58.0" prefWidth="112.0" style="-fx-background-color: #f2a23c;" styleClass="btn" stylesheets="@styles/main.css" text="CALCULEAZA" textFill="#a40f0f">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="42.0" layoutY="407.0" text="*Pentru zilele de sarbatoare adaugati litera S la tura respectiva (Exemplu: 4S)" />
+      <Label fx:id="errorLabel" alignment="CENTER" layoutX="23.0" layoutY="45.0" prefHeight="21.0" prefWidth="734.0" textAlignment="CENTER" textFill="#d00023">
+         <font>
+            <Font name="Georgia Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="resetBtn" layoutX="650.0" layoutY="425.0" mnemonicParsing="false" onAction="#reset" prefHeight="58.0" prefWidth="101.0" style="-fx-background-color: #5de84d;" styleClass="btn" stylesheets="@styles/main.css" text="RESETEAZA" textFill="#a40f0f">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="290.0" layoutY="499.0" text="Ore Week-End:">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="weekendHoursLabel" layoutX="418.0" layoutY="499.0" text="oreSD" textFill="#671ec6">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="465.0" text="Durata normata:">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="monthlyHoursLabel" layoutX="190.0" layoutY="465.0" text="DN" textFill="#156f3d">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="helpButton" layoutX="748.0" layoutY="14.0" mnemonicParsing="false" onAction="#getHelp" prefHeight="33.0" prefWidth="31.0" styleClass="toggle-button" stylesheets="@styles/help.css" />
+      <Label layoutX="32.0" layoutY="553.0" text="Numar ture luna urmatoare:" />
+      <TextField fx:id="nextMonthShiftsField" blendMode="RED" layoutX="189.0" layoutY="549.0" prefHeight="26.0" prefWidth="54.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="payslipButton" layoutX="559.0" layoutY="550.0" mnemonicParsing="false" onAction="#payslip" prefHeight="26.0" prefWidth="190.0" style="-fx-background-color: #d79bda;" styleClass="btn" stylesheets="@styles/main.css" text="FLUTURAS SALARIU" textAlignment="CENTER" textFill="#a40f0f" wrapText="true">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="277.0" layoutY="554.0" text="Distanta domiciliu - serviciu, in km:" />
+      <TextField fx:id="distanceFromHomeField" blendMode="RED" layoutX="473.0" layoutY="550.0" prefHeight="26.0" prefWidth="54.0">
+         <font>
+            <Font name="Rockwell Bold" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
