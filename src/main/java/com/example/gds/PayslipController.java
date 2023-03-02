@@ -227,12 +227,12 @@ public class PayslipController {
         this.netTaxBase.setText(df.format(netTaxBase));
         nxtMonthShifts.setText("" + nextMonthShifts);
         this.nextMonthShifts.setText("" + nextMonthShiftsNo);
-        this.optionalPensionEE.setText("" + optionalPensionEE);
+        this.optionalPensionEE.setText(df.format(optionalPensionEE));
         this.paymentAmount.setText(df.format(paymentAmount));
         this.socialInsBaseEE.setText(df.format(socialInsBaseEE));
         this.socialInsuranceEEX.setText(df.format(socialInsuranceEEX));
         this.socialInsuranceEE.setText(df.format(socialInsuranceEE));
-        this.syndicateCost.setText("" + syndicateCost);
+        this.syndicateCost.setText(df.format(syndicateCost));
         this.totalTaxX.setText(df.format(totalTaxX));
         this.totalTax.setText(df.format(totalTax));
         this.vacationHours.setText("" + vacationHours);
