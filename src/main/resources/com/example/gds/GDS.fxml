@@ -395,7 +395,7 @@
          </font>
       </Label>
       <Button fx:id="helpButton" layoutX="748.0" layoutY="14.0" mnemonicParsing="false" onAction="#getHelp" prefHeight="33.0" prefWidth="31.0" styleClass="toggle-button" stylesheets="@styles/help.css" />
-      <Label layoutX="32.0" layoutY="553.0" text="Numar ture luna urmatoare:" />
+      <Label layoutX="32.0" layoutY="553.0" text="Numar ture luna anterioara:" />
       <TextField fx:id="nextMonthShiftsField" blendMode="RED" layoutX="189.0" layoutY="549.0" prefHeight="26.0" prefWidth="54.0">
          <font>
             <Font name="Rockwell Bold" size="14.0" />

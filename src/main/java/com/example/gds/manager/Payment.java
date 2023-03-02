@@ -77,7 +77,7 @@ public class Payment {
     }
 
     public double getWorkCommute(int nextMonthShifts, int distanceToHome) {
-        return nextMonthShifts * 2 * distanceToHome * 0.32;
+        return nextMonthShifts * 2 * distanceToHome * 0.35;
     }
 
     public int getMealTickets(int nextMonthShifts) {

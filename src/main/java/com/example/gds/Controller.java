@@ -573,8 +573,8 @@ public class Controller {
         holidayXPayment = payment.getHolidayX(baseMonthlySalaryPayment, absMonthlyHours);
         specialVacationPayment = payment.getSpecialVacation(baseSalary, absMonthlyHours, vacationHours);
         specialVacationXPayment = payment.getSpecialVacationX(baseSalary, absMonthlyHours);
-        vacationPay = payment.getVacationPay(vacationPayX, vacationPayDays);
         vacationPayX = payment.getVacationPayX(baseSalary, absMonthlyHours, nightHours, passiveHours, holyPassiveHours, absNumWorkDays);
+        vacationPay = payment.getVacationPay(vacationPayX, vacationPayDays);
         compensatoryAddTax = payment.getCompensatoryTaxAdd(baseMonthlySalaryPayment, absMonthlyHours, monthlyHours);
         passiveHoursPayment = payment.getPassiveHours(baseMonthlySalaryPayment, absMonthlyHours, passiveHours);
         passiveHoursXPayment = payment.getPassiveHoursX(baseMonthlySalaryPayment, absMonthlyHours);
